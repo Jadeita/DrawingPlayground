@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jade´s Drawing App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/icon.png" >
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    
+   
+    <div class="heading">
+        <h2 class="gradient-text">MY DRAWING APP 🎨</h2> 
+        <button class="save">Download Draw</button>
+        <button class="clear">Clear</button>
+       
+    </div>
+    
+    
+
+    <div class="nav">
+        <div class="clr" data-clr="#000"></div>
+        <div class="clr" data-clr="#ffadad"></div>
+        <div class="clr" data-clr="#ffd6a5"></div>
+        <div class="clr" data-clr="#9bf6ff"></div>
+        <div class="clr" data-clr="#a0c4ff"></div>
+        <div class="clr" data-clr="#bdb2ff"></div>
+        <div class="clr" data-clr="#caffbf"></div>
+        <div class="clr" data-clr="#fdffb6"></div>
+        <div class="clr" data-clr="#ffc6ff"></div>
+        <div class="clr" data-clr="#fff"></div>
+       
+        <input type="color" id="favcolor" value="#FFFFFF">
+        <input type="range" name="ageInputName" id="ageInputId" value="5" min="1" max="10" oninput="ageOutputId.value = ageInputId.value">
+        <output id="ageOutputId">5</output>
+       
+    </div>
+    <div>
+
+        <canvas id="canvas"></canvas>
+
+    </div>
+
+    
+
+ 
+
+ 
+    
+  
+</body>
+</html>
